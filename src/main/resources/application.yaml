@@ -16,3 +16,8 @@ spring:
 server:
   error:
     include-stacktrace: ON_PARAM
+spring-doc:
+  swagger-ui:
+    path: /swagger-ui
+    operationsSorter: method
+    tagsSorter: alpha
